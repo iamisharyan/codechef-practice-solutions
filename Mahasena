@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t;
+cin>>t;
+int count1=0, count2=0;
+while(t--){
+    int n;
+    cin>>n;
+    if (n%2==0){
+       count1 = count1 + 1;
+    }
+    else{
+        count2 = count2 +1;
+    }
+}
+if(count1 > count2){
+    cout<<"Ready for battle";
+}
+else{
+    cout<<"NOT READY";
+}
+}
