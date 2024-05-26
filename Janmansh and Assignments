@@ -1,0 +1,21 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+int t;
+	cin>>t;
+while(t--){
+ int main() {   
+     int a;
+    cin>>a;
+	// your code goes here
+
+    if(a<=10-3){
+        cout<<"Yes"<<endl;
+    }
+    else{
+        cout<<"no"<<endl;
+    }
+}
+}
+
+
