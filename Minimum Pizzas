@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;// your code goes here
+while(t--){
+    int n,x;
+    cin >> n >>x;
+    
+    int total_slices = n*x;
+    int pizzas = (total_slices + 3) /4;
+    cout << pizzas << endl;
+}
+}
